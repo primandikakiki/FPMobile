@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_smartphone">
+
+    <fragment
+        android:id="@+id/nav_aksesoris"
+        android:name="com.primandika.javastore.interface.aksesoris.AksesorisFragment"
+        android:label="@string/menu_aksesoris"
+        tools:layout="@layout/aksesoris_fragment" />
+
+    <fragment
+        android:id="@+id/nav_smartphone"
+        android:name="com.primandika.javastore.interface.smartphone.SmartphoneFragment"
+        android:label="@string/menu_smartphone"
+        tools:layout="@layout/smartphone_fragment" />
+
+    <fragment
+        android:id="@+id/nav_smartwatch"
+        android:name="com.primandika.javastore.interface.smartwatch.SmartwatchFragment"
+        android:label="@string/menu_smartwatch"
+        tools:layout="@layout/smartwatch_fragment" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.primandika.javastore.interface.info.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/info_fragment" />
+</navigation>

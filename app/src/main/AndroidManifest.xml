@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.primandika.javastore">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/javastorelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JavaStore"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".interface.info.InfoDetailActivity"
+            android:label="Detail Info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.primandika.javastore.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".interface.aksesoris.AksesorisDetailActivity"
+            android:label="Detail Aksesoris"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.primandika.javastore.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".interface.smartphone.SmartphoneDetailActivity"
+            android:label="Detail Smartphone"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.primandika.javastore.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".interface.smartwatch.SmartwatchDetailActivity"
+            android:label="Detail Smartwatch"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.primandika.javastore.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".UserAction"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JavaStore.NoActionBar"/>
+
+        <!-- Website -->
+        <activity
+            android:name=".interface.info.InfoWebsite"
+            android:label="Website Github Pembuat"
+            android:parentActivityName=".interface.info.InfoDetailActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".interface.aksesoris.AksesorisWebsite"
+            android:label="Website Pembelian Aksesoris"
+            android:parentActivityName=".interface.aksesoris.AksesorisDetailActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".interface.smartphone.SmartphoneWebsite"
+            android:label="Website Pembelian Smartphone"
+            android:parentActivityName=".interface.smartphone.SmartphoneDetailActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".interface.smartwatch.SmartwatchWebsite"
+            android:label="Website Pembelian Smartwatch"
+            android:parentActivityName=".interface.smartwatch.SmartwatchDetailActivity"
+            android:theme="@style/Theme.JavaStore.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>

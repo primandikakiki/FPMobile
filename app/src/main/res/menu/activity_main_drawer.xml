@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Kategori">
+            <menu>
+                <item
+                    android:id="@+id/nav_smartphone"
+                    android:icon="@drawable/ic_baseline_smartphone_24"
+                    android:title="@string/menu_smartphone" />
+                <item
+                    android:id="@+id/nav_aksesoris"
+                    android:icon="@drawable/ic_baseline_charging_station_24"
+                    android:title="@string/menu_aksesoris" />
+                <item
+                    android:id="@+id/nav_smartwatch"
+                    android:icon="@drawable/ic_baseline_watch_24"
+                    android:title="@string/menu_smartwatch" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Informasi">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_baseline_perm_device_information_24"
+                android:title="@string/menu_info" />
+        </menu>
+    </item>
+
+</menu>

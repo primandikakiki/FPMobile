@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Java Store</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Java Store</string>
+    <string name="nav_header_subtitle">38 and 37</string>
+    <string name="nav_header_desc">Java Store</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_smartphone">Smartphone</string>
+    <string name="menu_aksesoris">Aksesoris dan Kelengkapan</string>
+    <string name="menu_smartwatch">Smartwatch</string>
+    <string name="menu_info">Tentang Aplikasi</string>
+
+    <string name="title_smartphone_activity_detail">Detail</string>
+    <string name="title_aksesoris_activity_detail">Detail</string>
+    <string name="title_smartwatch_activity_detail">Detail</string>
+
+
+    <string name="hint_password">hint Password</string>
+    <string name="hint_username">hint Username</string>
+    "
+</resources>
